@@ -1,0 +1,55 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+  font-family: "Merriweather";
+  text-align: center;
+  color: #fff;
+  
+}
+.hero-image{
+  height: 625px;
+  background: #e8eced url("../images/landing.png") no-repeat center ;
+
+}
+
+.main-title{
+  padding: 5% 20%;
+}
+
+.title-heading{
+  font-family: "Francois One";
+  font-size: 6.5rem;
+  padding-bottom: 5%;
+}
+
+.heading-text{
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.8em;
+}
+.title-button1,.title-button2{
+
+  margin:  3%;
+  margin-top: 5%;
+  width: 7.5em;
+}
+.title-button1:hover{
+  background-color: transparent;
+  color: #fff;
+  }
+.main-nav{
+  font-family: "Francois One",sans-serif;
+
+}
+.nav-bar-div{
+  padding:  0 5%;
+}
+
+.main-nav li{
+  padding: 0 3.5rem;
+
+}
