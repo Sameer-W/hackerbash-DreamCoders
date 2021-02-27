@@ -20,68 +20,139 @@
 </head>
 
 <body>
+  <div class="hero-image">
+    <div class="container abc">
 
-  <div class="container abc">
+
+      <div class="row">
+        <div class=" card   mb-3 col-md-12 info-card">
+
+          <div class="card-body">
+
+            <p class="card-text">
+            <form>
 
 
-    <div class="row">
-      <div class=" card text-white bg-dark mb-3 col-md-12 info-card">
+              <div class="row">
+                <div class="form-group col">
 
-        <div class="card-body">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group col">
 
-          <p class="card-text">
-          <form>
-            <label for="name">Name: </label>
-            <input type="text" placeholder="Name">
+                  <input type="text" class="form-control" placeholder="Stock">
+                </div>
+                <div class="form-group col">
+
+                  <input type="number" class="form-control" placeholder="Price">
+                </div>
+                <div class="form-group col">
+
+                  <input type="number" class="form-control" placeholder="Discount">
+                </div>
+
+              </div>
+
+              <!-- <label for="name">Name: </label>
+            <input class="inputs" type="text" placeholder="Name">
             <label for="Stock">Stock: </label>
-            <input type="text" placeholder="Stock">
+            <input class="inputs" type="text" placeholder="Stock">
             <label for="Price">Price: </label>
-            <input type="number" placeholder="Price">
+            <inputclass="inputs"  type="number" placeholder="Price">
             <label for="Discount">Discount: </label>
-            <input type="number " placeholder="Discount">
-            <!-- <input class="title-button1 btn  btn-light btn-sm download-button" type="AddItem" value="Add Item"> -->
-            <button type="submit" class="title-button1 btn  btn-light btn-sm download-button">Add Item</button>
-          </form>
-          </p>
+            <input class="inputs" type="number " placeholder="Discount">
+             <input class="title-button1 btn  btn-light btn-sm download-button" type="AddItem" value="Add Item"> -->
+              <!-- <div class="form-group col">
+              <input type="number" class="title-button1 btn  btn-light btn-sm download-button" placeholder="Add Item">
+
+            </div> -->
+              <button type="submit" class="title-button1 btn  btn-light btn-sm download-button">Add Item</button>
+            </form>
+            </p>
+
+          </div>
+
 
         </div>
-
-
       </div>
     </div>
-</div>
 
-<!-- Added Items -->
-<div class="container abc">
+    <!-- Added Items -->
+    <div class="container abc">
 
 
-  <div class="row">
-    <div class=" card text-white bg-dark mb-3 col-md-12 info-card">
+      <div class="row">
+        <div class=" card   mb-3 col-md-12 info-card">
 
-      <div class="card-body">
+          <div class="card-body">
 
-        <p class="card-text">
-        <form>
-          <label for="name">Name: </label>
+            <p class="card-text">
+
+              <div class="row">
+                <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Sr.no</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Stock</th>
+                      <th scope="col">Price</th>
+                      <th scope="col">Discount</th>
+                      <th scope="col">Delete?</th>
+
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Rice</td>
+                      <td>100</td>
+                      <td>1000</td>
+                      <td>10%</td>
+                      <td><i class="far fa-trash-alt"></i></td>
+
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Wheat</td>
+                      <td>50</td>
+                      <td>1100</td>
+                      <td>20%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Bread</td>
+                      <td>20</td>
+                      <td>1200</td>
+                      <td>30%</td>
+                    </tr>
+                  </tbody>
+                  
+
+                </table>
+
+
+              </div>
+              <!-- <label for="name">Name: </label>
           <input type="text" placeholder="Name">
           <label for="Stock">Stock: </label>
           <input type="text" placeholder="Stock">
           <label for="Price">Price: </label>
           <input type="number" placeholder="Price">
           <label for="Discount">Discount: </label>
-          <input type="number " placeholder="Discount">
-          <!-- <input class="title-button1 btn  btn-light btn-sm download-button" type="AddItem" value="Add Item"> -->
+          <input type="number " placeholder="Discount"> -->
+              <!-- <input class="title-button1 btn  btn-light btn-sm download-button" type="AddItem" value="Add Item"> -->
 
-        </form>
-        </p>
 
+            </p>
+
+          </div>
+
+
+        </div>
       </div>
-
-
     </div>
   </div>
-</div>
-
 
 
 </body>
