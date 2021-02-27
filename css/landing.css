@@ -59,7 +59,9 @@ body{
 .navbar-nav .nav-item:hover .nav-link {
     color: #fff;
 }
+.card-scene{
 
+}
 #mid-sec{
   padding:100px;
 }
@@ -106,7 +108,9 @@ body{
   
 }
 
-
+.final-text{
+  font-size: 1.5rem;
+}
 
 #text+div{
   
