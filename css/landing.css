@@ -7,7 +7,7 @@ body{
   font-family: "Merriweather";
   text-align: center;
   color: #fff;
-  
+
 }
 .hero-image{
   height: 625px;
@@ -46,10 +46,38 @@ body{
 
 }
 .nav-bar-div{
-  padding:  0 5%;
+  padding:  0 20%;
 }
 
 .main-nav li{
   padding: 0 3.5rem;
+
+}
+
+navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 816px){
+  .main-title{
+    padding: 5% 20%;
+  }
+
+  .title-heading{
+    font-family: "Francois One";
+    font-size: 4rem;
+    padding-bottom: 5%;
+  }
+
+  .heading-text{
+    font-size: 1.0rem;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    line-height: 1.8em;
+  }
 
 }
