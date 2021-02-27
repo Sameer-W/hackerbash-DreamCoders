@@ -1,9 +1,25 @@
- .hero-image{
-  height: 625px;
-  /* background: #e8eced url("../images/items3.jpg") no-repeat center ;
-  background-color: #e7e7de; */
+
+.main-nav{
+  font-family: "Francois One",sans-serif;
+  margin-bottom: 3%
 
 }
+.nav-bar-div{
+  padding:  0 20%;
+}
+
+.main-nav li{
+  padding: 0 2.5rem;
+  color: #fff;
+
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff;
+}
+
+
 .info-card{
   margin: 1% 1% 0 1%;
   color: #0F2336;
@@ -35,6 +51,34 @@
   margin-left: 65%;
 
 }
+
+.bill{
+  padding-left: 2%;
+}
+
+
+.total-bill{
+  margin-top: 20px;
+  border-radius: 2%;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #343A40;
+  box-shadow: 1px 1px 29px -8px rgba(58,167,174,0.4) inset;
+   box-shadow: 2px 5px 8px -2px rgba(0,0,0,0.75);
+}
+
+.total-bill p {
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid white;
+}
+
+.total-bill p:nth-last-of-type(1){
+  padding-bottom: 0px;
+  border-bottom: none;
+}
+
+
 
 /* @media (max-width:1200px) {
   .info-card{

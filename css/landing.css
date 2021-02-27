@@ -10,8 +10,8 @@ body{
 
 }
 .hero-image{
-  height: 625px;
-  background: #e8eced url("../images/landing.png") no-repeat center ;
+  height: 720px;
+  background: #e8eced url("../images/landing.png") no-repeat center;
 
 }
 
@@ -51,33 +51,76 @@ body{
 
 .main-nav li{
   padding: 0 3.5rem;
+  color: #fff;
 
 }
 
-navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color: #fff;
 }
 
+#mid-sec{
+  padding:100px;
+}
+
+.info-card{
+  margin: 0 2%;
+  height: 330px;
+  width: 289px;
+  background-color: #EBECE9;
+  border-radius: 5%;
+  box-shadow: 16px 17px 23px -8px rgba(0,0,0,0.59);
+-webkit-box-shadow: 16px 17px 23px -8px rgba(0,0,0,0.59);
+-moz-box-shadow: 16px 17px 23px -8px rgba(0,0,0,0.59);
+  /* box-shadow: 1px 1px 29px -8px rgba(0,0,0,0.4) inset; */
+  /* box-shadow: 2px 5px 8px -2px rgba(0,0,0,0.75); */
+}
+.card-title{
+  font-family: "Francois One", sans-serif;
+  color: #0F2336;
+  font-size: 2rem;
+  padding-bottom: 30px;
+
+}
+.card-text{
+  color: #576d81;
+}
+
+.final-block{
+  margin-top: 10rem;
+
+}
+
+.sec-3-image{
+  height: 720px;
+  background: #e8eced url("../images/sec-3img.png") no-repeat right ;
+}
+
+
+#text{
+  font-family: 'Francois One';
+  color: #0F2336;
+  font-size: 3.5rem;
+
+
+}
 
 
 
-@media (max-width: 816px){
-  .main-title{
-    padding: 5% 20%;
+#text+div{
+
+  color: #576D81;
+  font-size: 1.875rem;
+  font-weight: 200;
+  padding-top: 2rem;
+
+}
+
+
+@media(max-width: 991px){
+  .nav-bar-div{
+    padding:  0 20px;
+
   }
-
-  .title-heading{
-    font-family: "Francois One";
-    font-size: 4rem;
-    padding-bottom: 5%;
-  }
-
-  .heading-text{
-    font-size: 1.0rem;
-    font-weight: 100;
-    letter-spacing: 0.05em;
-    line-height: 1.8em;
-  }
-
 }

@@ -1,5 +1,6 @@
 .register{
     background: -webkit-linear-gradient(left, #8178ff, #38b5f3);
+
     margin-top: 3%;
     padding: 3%;
 }
@@ -24,6 +25,7 @@
     background: #f8f9fa;
     border-top-left-radius: 10% 50%;
     border-bottom-left-radius: 10% 50%;
+
 }
 .register-left img{
     margin-top: 15%;
@@ -95,6 +97,6 @@
 .register-heading{
     text-align: center;
     margin-top: 8%;
-    margin-bottom: -15%;
+
     color: #495057;
 }
