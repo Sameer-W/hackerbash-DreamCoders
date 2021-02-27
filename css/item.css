@@ -26,7 +26,11 @@
   background-color: #D8D8D8!important;
   color: #0F2336 !important;
 }
-
+.del{
+  padding: 0;
+  border: none;
+  background: none;
+}
 /* @media (max-width:1200px) {
   .info-card{
     margin-top: 2%;
