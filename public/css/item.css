@@ -1,0 +1,44 @@
+ .hero-image{
+  height: 625px;
+  /* background: #e8eced url("../images/items3.jpg") no-repeat center ;
+  background-color: #e7e7de; */
+
+}
+.info-card{
+  margin: 1% 1% 0 1%;
+  color: #0F2336;
+  background-color: #E5C5A5;
+  border-radius: 10%;
+  box-shadow: 1px 1px 29px -8px rgba(58,167,174,0.4) inset;
+   box-shadow: 2px 5px 8px -2px rgba(0,0,0,0.75);
+}
+.card-title{
+  font-family: "Francois One", sans-serif;
+  color: #0F2336;
+  font-size: 2rem;
+  padding-bottom: 30px;
+
+}
+.card-text{
+  color: #0F2336;
+}
+.card{
+  background-color: #D8D8D8!important;
+  color: #0F2336 !important;
+}
+.del{
+  padding: 0;
+  border: none;
+  background: none;
+}
+/* @media (max-width:1200px) {
+  .info-card{
+    margin-top: 2%;
+    align:center;
+    height: 180px;
+    width: 500px;
+    background-color: #EBECE9;
+    border-radius: 10%;
+    box-shadow: 1px 1px 29px -8px rgba(58,167,174,0.4) inset;
+     box-shadow: 2px 5px 8px -2px rgba(0,0,0,0.75);
+  } */
